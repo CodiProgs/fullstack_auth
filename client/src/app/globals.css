@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #292929;
+  --bg-colorSoft: color-mix(in srgb, var(--bg-color), white 5%);
+  --text-color: #fff;
+  --text-colorSoft: color-mix(in srgb, var(--text-color), black);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
